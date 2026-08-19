@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <types>
-  <type name="ZmbF_usSoldier_STAG">
+  <type name="ZmbF_usSoldier_STAG">             <!-- Haz S.T.A.G (Antoine noitane) -->
     <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
@@ -314,7 +314,7 @@
     <value name="Tier9" />
     <value name="Tier8" />
     <value name="Tier7" />
-  </type>
+  </type>                                       <!-- Haz S.T.A.G End (Antoine noitane) -->
   <type name="BarrelHoles_Stagb">
     <nominal>0</nominal>
     <lifetime>3888000</lifetime>
