@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <spawnabletypes>
-<!--HaZ-->
+	<type name="ZmbM_STAG_NBC_Black">                      <!-- Haz S.T.A.G (Antoine noitane) -->
+		<cargo preset="ContaminatedCargo"/>
+		<cargo chance="0.01">
+			<item name="AntiChemInjector" chance="1.0"/>
+		</cargo>
+	</type>                                                <!-- Haz S.T.A.G End (Antoine noitane) -->	
+	<type name="Haz_STAG_Briefcase">  <!-- Haz S.T.A.G (Antoine noitane) -->
+        <damage min="0.0" max="0.0" />						
+		<cargo chance="0.6">
+			<item name="jmc_grenade_z" />
+		</cargo>														
+		<cargo chance="0.2">
+			<item name="STAG_AmmoBox_SnowOwl" />
+		</cargo>					
+		<cargo chance="0.3">
+			<item name="Haz_STAG_Canteen" />
+		</cargo>	
+		<cargo chance="0.3">
+			<item name="Haz_STAG_PetrolLighter" />
+		</cargo>	
+		<cargo chance="0.3">
+			<item name="STAG_CombatKnife" />
+		</cargo>	
+		<cargo chance="0.3">
+			<item name="Haz_STAG_BalaclavaMask_Black" />
+		</cargo>	
+		<cargo chance="0.3">
+			<item name="Haz_STAG_MilitaryBoots" />
+		</cargo>	
+		<cargo chance="0.3">
+			<item name="STAG_Clothing_TacticalGloves" />
+		</cargo>	
+		<cargo chance="0.3">
+			<item name="STAG_Clothing_M65_Jacket" />
+		</cargo>	
+		<cargo chance="0.3">
+			<item name="STAG_Clothing_Cargo_Pants" />
+		</cargo>	
+		<cargo chance="0.3">
+			<item name="Haz_STAG_BallisticHelmet" />
+		</cargo>					
+		<cargo chance="0.05">
+			<item name="jmc_Prototype_Red" />
+		</cargo>			
+		<cargo chance="0.2">
+			<item name="jmc_SnowOwl_Optic" />
+		</cargo>			
+		<cargo chance="0.2">
+			<item name="jmc_SnowOwl_Mag" />
+		</cargo>			
+		<cargo chance="0.2">
+			<item name="jmc_Prototype_Mag" />
+		</cargo>						
+		<cargo chance="0.1">
+			<item name="STAG_Clothing_PlateCarrier" />
+		</cargo>			
+		<cargo chance="0.3">
+			<item name="STAG_Clothing_Vest" />
+		</cargo>						
+		<cargo chance="0.2">
+			<item name="Mag_SVD_10Rnd" />
+		</cargo>								
+		<cargo chance="0.2">
+			<item name="Mag_FAL_10Rnd" />
+		</cargo>					
+		<cargo chance="0.2">
+			<item name="Mag_STANAG_60Rnd" />
+		</cargo>					
+		<cargo chance="0.2">
+			<item name="Mag_AKM_Drum75Rnd" />
+		</cargo>			
+		<cargo chance="0.2">
+			<item name="M67Grenade" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="AK_Suppressor" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="M4_Suppressor" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="StarlightOptic" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="NVGoggles" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="Haz_STAG_TacticalBaconCan" />
+		</cargo>
+    </type>                                                <!-- Haz S.T.A.G End (Antoine noitane) -->
+    <!--HaZ-->
 	<type name="Haz_STAG_FirstAidKit">
 		<tag name="shelves"/>
 		<cargo chance="1">
