@@ -11,6 +11,9 @@ The original provided types file was missing some items, so the missing entries 
 
 Last update: 19/08/2026
 
+## STAG Items
+
+```text
 Haz_STAG_SmershVest
 Haz_STAG_SmershVest_PT
 Haz_STAG_SmershBag
